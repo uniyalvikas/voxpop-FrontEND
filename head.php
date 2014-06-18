@@ -1,12 +1,10 @@
 <!-- Begin Header -->
-
-
 <div class="header-wrapper opacity">
 	<div class="header">
 		<!-- Begin Logo -->
 		<div class="logo">
 		    <a href="index.php">
-               	<h2 style="font-family: 'Audiowide', serif; font-size: 30px;">The Vox PoP</h2>
+               	<h2 style="font-family: 'Audiowide', serif; font-size: 30px;" class="brandName">The Vox PoP</h2>
 			</a>
 	    </div>
 		<!-- End Logo -->
@@ -19,7 +17,7 @@
 				    </li>
 					
 					<li>
-                        <a href="columns.php">Who we are?</a></li>
+                        <a href="we-are-at-kii.php">Who we are?</a></li>
 					
 					<li><a href="contact.php">Contact Us</a></li>
 				</ul>
@@ -29,5 +27,4 @@
 		<!-- End Menu -->
 	</div>
 </div>
-
 <!-- End Header -->

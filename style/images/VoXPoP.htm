@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>Obscura</title>
+<title>VoXPoP</title>
 <link rel="stylesheet" type="text/css" media="all" href="style.css" />
 <link rel="stylesheet" type="text/css" href="style/css/media-queries.css" />
 <link rel="stylesheet" type="text/css" href="style/js/player/mediaelementplayer.css" />
@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all" />
 <![endif]-->
 <script type="text/javascript" src="style/js/jquery-1.7.2.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
 <script type="text/javascript" src="style/js/retina.js"></script>
 <script type="text/javascript" src="style/js/selectnav.js"></script>
@@ -24,7 +25,7 @@
 <script type="text/javascript" src="style/js/mediaelement.min.js"></script>
 <script type="text/javascript" src="style/js/mediaelementplayer.min.js"></script>
 <script type="text/javascript" src="style/js/jquery.dcflickr.1.0.js"></script>
-<script type="text/javascript" src="style/js/twitter.min.js"></script>
+
 <script type="text/javascript">
 	$.backstretch("style/images/bg/1.jpg");
 </script>
@@ -33,27 +34,57 @@
 <div class="scanlines"></div>
 
 <!-- Begin Header -->
-<?php 
-    include("head.php");
-?>
-<!-- End Header -->
+<!-- Begin Header -->
+
+
+
+<div class="header-wrapper opacity">
+	<div class="header">
+		<!-- Begin Logo -->
+		<div class="logo">
+		    <a href="index.php">
+               	<h2 style="font-family: 'Audiowide', serif; font-size: 30px;" class="brandName">The Vox PoP</h2>
+			</a>
+	    </div>
+		<!-- End Logo -->
+		<!-- Begin Menu -->
+		<div id="menu-wrapper">
+			<div id="menu" class="menu">
+				<ul id="tiny">
+					<li class="active">
+                        <a href="index.php">VOX News</a>
+				    </li>
+					
+					<li>
+                        <a href="we-are-at-kii.php">Who we are?</a></li>
+					
+					<li><a href="contact.php">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!-- End Menu -->
+	</div>
+</div>
+
+<!-- End Header --><!-- End Header -->
 
 <!-- Begin Wrapper -->
 <div class="wrapper"><!-- Begin Intro -->
-<div class="intro">Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum, Vestibulum id ligula porta. </div>
+<div class="intro">We are the team KII "Khullar International India" , a India based software development comapny, we are working towards solwling social problems using latest webtechnlogies. <br/> We make your web dream into reality... </div>
 <ul class="social">
-<li><a class="rss" href="#"></a></li><li><a class="facebook" href="#"></a></li><li><a class="twitter" href="#"></a></li><li><a class="pinterest" href="#"></a></li><li><a class="dribbble" href="#"></a></li><li><a class="flickr" href="#"></a></li><li><a class="linkedin" href="#"></a></li></ul><!-- End Intro --> 
+<li><a class="rss" href="#"></a></li><li><a class="facebook" href="#"></a></li><li><a class="pinterest" href="#"></a></li><li><a class="dribbble" href="#"></a></li><li><a class="flickr" href="#"></a></li><li><a class="linkedin" href="#"></a></li></ul><!-- End Intro --> 
 
 <!-- Begin Container -->
 <div class="box">
 
-	<h1 class="title">Columns</h1>
-		
+	<h1 class="title">we-are-at-kii</h1>
 	<div class="one-half">
-      <p><span class="dropcap">A</span>Nam laoreet rutrum ligula, at tincidunt ligula sagittis semper. Integer congue vehicula lectus eu faucibus. Maecenas ante lectus, placerat et venenatis quis, dictum quis orci. Curabitur lacus nisi, vestibulum id aliquam sit amet, dictum sit amet lacus. </p>
+
+      <p><span class="dropcap"><img src="style/images/we/ux.png"></span>Nam laoreet rutrum ligula, at tincidunt ligula sagittis semper. Integer congue vehicula lectus eu faucibus. Maecenas ante lectus, placerat et venenatis quis, dictum quis orci. Curabitur lacus nisi, vestibulum id aliquam sit amet, dictum sit amet lacus.</p>
     </div>
     <div class="one-half last">
-      <p><span class="dropcap">B</span>Nam laoreet rutrum ligula, at tincidunt ligula sagittis semper. Integer congue vehicula lectus eu faucibus. Maecenas ante lectus, placerat et venenatis quis, dictum quis orci. Curabitur lacus nisi, vestibulum id aliquam sit amet, dictum sit amet lacus. </p>
+      <p><span class="dropcap"><img src="style/images/we/uf.png"></span>Nam laoreet rutrum ligula, at tincidunt ligula sagittis semper. Integer congue vehicula lectus eu faucibus. Maecenas ante lectus, placerat et venenatis quis, dictum quis orci. Curabitur lacus nisi, vestibulum id aliquam sit amet, dictum sit amet lacus. </p>
     </div>
     <div class="clear"></div>
     <hr />
@@ -147,7 +178,7 @@
 <!-- End Wrapper -->
 
 <!-- Begin Footer -->
-<div class="footer-wrapper">
+    <div class="footer-wrapper">
 <div id="footer" class="four">
 		<div id="first" class="widget-area">
 			<div class="widget widget_search">
@@ -175,7 +206,7 @@
 					
 					<div id="twitter-wrapper">
 						<div id="twitter"></div>
-						<span class="username"><a href="http://twitter.com/elemisdesign">→ Follow @elemisdesign</a></span>
+						<span class="username"><a href="http://twitter.com/">→ Follow @kii</a></span>
 					</div>
 			</div>
 		</div><!-- #second .widget-area -->
@@ -217,18 +248,13 @@
 		</div><!-- #third .widget-area -->
 		
 		<div id="fourth" class="widget-area">
-		<div class="widget">
-			<h3 class="widget-title">Flickr</h3>
-			<ul class="flickr-feed"></ul>
-			
-		</div>
+		AD area
 		</div><!-- #fourth .widget-area -->
 	</div>
 </div>
 <div class="site-generator-wrapper">
-	<div class="site-generator">Copyright Obscura 2012. Design by <a href="http://elemisfreebies.com">elemis</a>. All rights reserved.</div>
-</div>
-<!-- End Footer --> 
+	<div class="site-generator"><center>&reg; KII 2014. Design by <a href="http://kii.co.in">KHULLAR INTERNATIONAL INDIA</a>. All rights reserved.</center></div>
+</div><!-- End Footer --> 
 <script type="text/javascript" src="style/js/scripts.js"></script>
 </body>
 </html>

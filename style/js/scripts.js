@@ -73,44 +73,6 @@ jQuery(document).ready(function($) {
     });	
 
 
-/*-----------------------------------------------------------------------------------*/
-/*	TWITTER
-/*-----------------------------------------------------------------------------------*/
-
-getTwitters('twitter', {
-        id: 'elemisdesign', 
-        count: 2, 
-        enableLinks: true, 
-        ignoreReplies: false,
-        template: '<span class="twitterPrefix"><span class="twitterStatus">%text%</span><br /><em class="twitterTime"><a href="http://twitter.com/%user_screen_name%/statuses/%id%">%time%</a></em>',
-        newwindow: true
-});
-
-/*-----------------------------------------------------------------------------------*/
-/*	FLICKR
-/*-----------------------------------------------------------------------------------*/
-	
-$(document).ready(function($){
-	$('.flickr-feed').dcFlickr({
-		limit: 9, 
-        q: { 
-            id: '51789731@N07',
-			lang: 'en-us',
-			format: 'json',
-			jsoncallback: '?'
-        },
-		onLoad: function(){
-			$('.frame a').prepend('<span class="more"></span>');
-			$('.frame').mouseenter(function(e) {
-
-            $(this).children('a').children('span').fadeIn(300);
-        }).mouseleave(function(e) {
-
-            $(this).children('a').children('span').fadeOut(200);
-        });
-		}
-	});
-});	
 
 /*-----------------------------------------------------------------------------------*/
 /*	AUDIO PLAYER
